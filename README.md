@@ -1,29 +1,33 @@
 ---
-title: Discord bot
-description: A Discord bot written in JavaScript
-tags:
-  - discord.js
-  - javascript
+Proyecto: Mindy Manager
+Descripción: Bot de Discord para la gestión de usuarios de multiples servidores.
+Tecnologías:
+  - Discord.JS
+  - JavaScript
 ---
 
-# Discord.js Example
+## ✨ Caracteristicas
 
-This example starts a Discord bot using [discord.js](https://discord.js.org/#/).
+- Creación automatica de 5 roles: Sin Verificar - Alumno/a - Egresado/a - Equipo Academico - Administrador
+- Creación automatica de 2 canales: Un canal es para verificar a los alumnos de manera manual, el otro es un logger para los Administradores.
+- Los usuarios registrados en la base de datos reciben su rol correspondiente al ingresar a un servidor en el que este el Bot.
+- Los usuarios al ser verificados, ya sea de manera manual o automatica, se les coloca su Nombre y Apellido como 'apodo' en el servidor.
+- Los usuarios pueden verificarse manualmente, si al ingresar al servidor no eran parte de la Base de Datos de su Bootcamp.
+- Los administradores pueden promover a todos los usuarios del servidor que tengan el rol de "Alumno" a "Egresado".
+- El bot se instala con 1 simple click, no requiere configuración adicional.
+- El bot incluye un formulario web para añadir a la Base de Datos a sus usuarios.
+- El bot sanciona automaticamente hasta 3 veces, previo a expulsarlos del servidor, a aquellos usuarios que utilicen lenguaje vulgar o grosero.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/jX0xQo)
+## 💁‍♀️ ¿Como instalarlo?
 
-## ✨ Features
+- Cloná el respositorio.
+- Instala las dependencias de Node con "npm install"
+- Establecé las variables de entorno que recibiste en tu orden de compra.
+- Invitá al BOT con el link que recibiste en tu orden de compra.
+- Hostea al BOT en Railway.
 
-- Discord.js
-- JavaScript
-
-## 💁‍♀️ How to use
-
-- Install dependencies `yarn`
-- Connect to your Railway project `railway link`
-- Start the bot `railway run yarn dev`
-
-## 📝 Notes
-
-- To create a new command, just create a file in the `Commands` directory. You can take a look at the `Template.js` file for an example of what commands should look like. For any additional help see the [discord.js guide](https://discordjs.guide).
-- If you need any additional help with this, join our [Discord server](https://discord.gg/railway) and create a thread in the project help channel.
+- ## 🧑🏻‍💻 Developed by:
+  * Bruno Buonassisa (Project Manager)
+  * Matias Calvi 
+  * Hugo Smahlij
+  * Rocio Duarte Bazán
