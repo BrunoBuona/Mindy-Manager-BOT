@@ -29,5 +29,3 @@ Tecnologías:
 - ## 🧑🏻‍💻 Developed by:
   * Bruno Buonassisa (Project Manager)
   * Matias Calvi 
-  * Hugo Smahlij
-  * Rocio Duarte Bazán
